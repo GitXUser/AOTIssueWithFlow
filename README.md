@@ -8,8 +8,10 @@ Then need to deploy the app to reproduce the issue -->
 
 # To Check Issue with AOT Build
 npm install -> in App folder
+
 Build dependent lib : npm run BuildApp
 # works fine
 Run Application : ng serve 
+
 # ERROR with flow constructor injection 
-Run aplication with AOT : ng serve --prod
+Run application with AOT : ng serve --prod
